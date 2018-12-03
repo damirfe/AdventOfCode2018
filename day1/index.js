@@ -1043,7 +1043,6 @@ var key = 0;
 let b = null
 
 while (b == null) {
-  debugger;
   for (const i of input) {
     key += i;
     if (seen[key]) {
